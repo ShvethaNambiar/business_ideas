@@ -1,0 +1,294 @@
+@media only screen and (max-width:1200px) {
+    .schedule {
+        margin-top: -5em !important;
+        padding-bottom: 1.5em;
+
+    }
+}
+
+@media only screen and (max-width: 990px) {
+
+    .speaker-label {
+        position: relative;
+        text-align: left;
+        margin-left: 5px !important;
+        margin-top: -45px;
+        z-index: 2;
+    }
+
+    .collapsible:after {
+        float: right;
+        border: none;
+        margin-top: 0px;
+        /* margin-left: 5px; */
+        margin-right: -40px;
+    }
+
+    .content {
+        width: 70%;
+        border-bottom: 0.5px solid #00FF76;
+        margin-left: 40px;
+    }
+
+    #collapsible-2::after {
+        float: right;
+        border: none;
+        margin-top: -20px;
+        /* margin-left: 5px; */
+        margin-right: -40px;
+    }
+
+}
+
+@media only screen and (max-width: 765px) {
+
+    /* nav */
+    .navbar-brand {
+        padding: 8px 0px 0px 0px !important;
+        margin-right: 0 !important;
+    }
+
+    .tec-logo {
+        width: 80px !important;
+    }
+
+    .gravitas-logo {
+        width: 170px !important
+    }
+
+    #reg_button {
+        font-size: 1.7rem;
+        padding: 3px 45px;
+    }
+
+    /* home */
+    .home-abt {
+        margin-top: 4.5em !important;
+    }
+
+    #BI_logo {
+        max-width: 260px !important
+    }
+
+    .home .col-sm-12 {
+        padding-top: 20px;
+
+    }
+
+    .countdown {
+        padding: 0 !important;
+    }
+
+    #compDate {
+        font-size: 1.2em;
+        padding-left: 0.5em;
+    }
+
+    .times {
+        margin: 0 -3px
+    }
+
+    #day,
+    #hour,
+    #minute,
+    #second {
+        color: #00FF76;
+        font-size: 1.4rem;
+        text-align: center;
+        margin: 0 25%
+    }
+
+    .timeNames {
+        font-size: 1em;
+    }
+
+    #cal_text {
+        font-size: 1.5rem
+    }
+
+    /* about */
+    .about {
+        margin-top: 1em;
+    }
+
+    .about .container h2 {
+        font-size: 1.7em;
+        margin-top: -2%;
+        padding-bottom: 1%;
+    }
+
+    .about-text {
+        padding-top: 12px;
+    }
+
+    .about .container p {
+        font-size: 0.9em;
+        padding: 0 0.7em;
+    }
+
+    /* //////////////// */
+    .slider-body {
+        padding: 20px;
+    }
+
+    #slider label {
+        margin: auto;
+        width: 200px;
+        height: 150px;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+
+    label img {
+        display: block;
+        width: 200px;
+    }
+
+    /* schedule */
+
+    .schedule {
+        margin-top: -9em !important;
+        padding-bottom: 1.5em;
+        background: var(--bggradient);
+    }
+
+    .tri-2 {
+        /* position: absolute; */
+        margin-top: -300px
+    }
+
+    .schedule h2 {
+        font-size: 1.7em;
+        padding-bottom: 1.5em;
+    }
+
+    .schedule h2:after {
+        content: "";
+        display: block;
+        /* margin: 0 auto; */
+        width: 20vmin;
+        padding-top: 8px;
+        border-bottom: 2px solid #00FF76;
+    }
+
+    .schedule-padding {
+        margin-top: -3.5em;
+    }
+
+    /* speaker */
+    .speakers .container h1 {
+        text-align: center !important;
+    }
+
+
+    #green-line-speaker {
+        border-left: none !important;
+    }
+
+    /* prizes */
+    .prizes-text {
+        padding: 0 2em;
+        font-size: 1em;
+    }
+
+    /* faq */
+    .faq {
+        color: white;
+        margin-top: -6% !important;
+        padding-bottom: 4em;
+        background: var(--bggradient);
+    }
+
+    .collapsible:after {
+        float: right;
+        border: none;
+        margin-top: 0px;
+        /* margin-left: 5px; */
+        margin-right: -40px;
+    }
+
+    .content {
+        width: 70%;
+        border-bottom: 0.5px solid #00FF76;
+        margin-left: 40px;
+    }
+
+    /* contacts */
+
+    .contacts .container h2 {
+        font-size: 1.7em;
+        /* margin-top: -8%;
+    margin-bottom: 5%; */
+
+    }
+
+    .contacts-left {
+        text-align: left;
+        padding-left: 15%;
+    }
+
+    #contact-names h3 {
+        font-size: 1.5em;
+    }
+
+    #contact-names h4 {
+        font-size: 1em;
+        color: #FFE21C
+    }
+
+    #contact-names p {
+        font-size: 0.9em;
+    }
+
+    #or {
+        font-size: 1em;
+    }
+
+    #contact-email h3 {
+        font-size: 1em;
+    }
+
+    #contact-email a {
+        color: #FFE21C;
+        font-size: 0.9em;
+    }
+
+    .contacts-right {
+        padding: 2em 0 0 15%;
+    }
+
+    #follow-heading {
+        font-size: 1.5em;
+    }
+
+    .contacts-right i {
+        font-size: 2em;
+        display: inline-block;
+        padding: 5px 10px;
+    }
+
+    .xyz {
+        margin-top: -10px;
+        font-size: 1.11em;
+        display: inline-block;
+        padding: 0px 10px;
+    }
+
+    #brochure-link {
+        font-size: small;
+    }
+
+}
+
+
+/* for extra small */
+@media only screen and (max-width: 335px) {
+    .tec-logo {
+        width: 70px !important;
+    }
+
+    .gravitas-logo {
+        width: 140px !important
+    }
+}

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>BI</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/trial-style.css" />
+    <link rel="stylesheet" href="../css/mobile-style.css">
+
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body onload="getCountdown()">
+    <header>
+        <div class="container-fluid p-0 pt-1">
+            <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+                <a class="navbar-brand pl-3 pt-3" href="#">
+                    <img class="tec-logo" src="../assets/TEC Logo PNG.png" alt="TEC_logo">
+                    <img class="gravitas-logo pl-4" src="../assets/graVITas20 Logo.png" alt="gravitas-logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars text-light"></i>
+                </button>
+                <div class="collapse navbar-collapse mr-0" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">HOME
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#schedule">SCHEDULE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#speakers">SPEAKERS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#prizes">PRIZES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">FAQ's</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacts">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- home -->
+        <div class=" home-abt container-fluid p-0 text-center">
+            <div class=" home row">
+                <div class="col-sm-12 col-md-6">
+                    <img src="../assets/BISQ300.png" id="BI_logo" class="mid">
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="calendar">
+                        <i class="fas fa-calendar-alt  fa-2x"></i>
+                        <!-- CHANGE DATE -->
+                        <p id="compDate">To be Announced</p>
+                        <div class="countdown px-4">
+                            <div class="times">
+                                <span id="day">--</span>
+                                <div class="timeNames">Days</div>
+                            </div>
+                            <div class="times">
+                                <span id="hour">--</span>
+                                <div class="timeNames">Hours</div>
+                            </div>
+                            <div class="times">
+                                <span id="minute">--</span>
+                                <div class="timeNames">Minutes</div>
+                            </div>
+                            <div class="times">
+                                <span id="second">--</span>
+                                <div class="timeNames">Seconds</div>
+                            </div>
+                        </div>
+                        <p id="cal_text"><b>S</b>olve it | <b>S</b>ell it | <b>W</b>in it</p>
+
+                        <button class="btn" id="reg_button">Coming Soon</button>
+                    </div>
+
+                </div>
+            </div>
+            <!-- ABOUT -->
+            <div class="about">
+                <div class="parallax">
+                    <div class="black-overlay-1" id="about">
+                        <svg class="tri-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 185">
+                            <path fill="#199854" fill-opacity="1" d="M0,0L1440,165L1440,0L0,0Z"></path>
+                            <path fill="#111010" fill-opacity="1" d="M0,0L1440,130L1440,0L0,0Z"></path>
+                        </svg>
+                        <div class="container pb-4 text-center">
+                            <h2 class="text-left">Business Ideas 2.0</h2>
+                            <div class="row text-center">
+                                <div class="col-sm-12 col-md-6 about-text" data-aos="zoom-in-right"
+                                    data-aos-duration="1500">
+                                    <p>A techno-management event that imparts an exposure of how the business world
+                                        works
+                                        and how an idea grows into a full-fledged start up with crisis handling, stock
+                                        market trading and pitching experience.
+                                    </p>
+                                    <p> This unique event will help innovators become entrepreneurs with first hand
+                                        virtual
+                                        experience through tactical event rounds. The new stock market round will update
+                                        the
+                                        participants with the latest business trends.
+                                    </p>
+                                </div>
+
+                                <div class="slider-body col-sm-12 col-md-6" data-aos="zoom-in-left"
+                                    data-aos-duration="1500">
+                                    <section id="slider">
+                                        <input type="radio" name="slider" id="s1">
+                                        <input type="radio" name="slider" id="s2">
+                                        <input type="radio" name="slider" id="s3" checked>
+                                        <input type="radio" name="slider" id="s4">
+                                        <input type="radio" name="slider" id="s5">
+                                        <label for="s1" id="slide1">
+                                            <img src="../assets/DSC_0150.JPG" alt="tec.vit">
+                                        </label>
+                                        <label for="s2" id="slide2">
+                                            <img src="../assets/DSC_0225.JPG" alt="tec.vit">
+                                        </label>
+                                        <label for="s3" id="slide3">
+                                            <img src="../assets/DSC_0186.JPG" alt="tec.vit">
+                                        </label>
+                                        <label for="s4" id="slide4">
+                                            <img src="../assets/DSC_0297.JPG" alt="tec.vit">
+                                        </label>
+                                        <label for="s5" id="slide5">
+                                            <img src="../assets/DSC_0385.JPG" alt="tec.vit">
+                                        </label>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- schedule id in path for alignment purposes -->
+                    <svg class="tri-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 125 1440 195">
+                        <path id="schedule" fill="#199854" fill-opacity="1" d="M0,130L1440,320L1440,320L0,320Z"></path>
+                        <path fill="#111010" fill-opacity="1" d="M0,165L1440,320L1440,320L0,320Z"></path>
+                    </svg>
+                </div>
+            </div>
+    </header>
+
+    <!-- SCHEDULE -->
+    <section class="schedule">
+        <div class="container text-center">
+            <h2 class="text-left">Schedule</h2>
+            <div class="d-none d-lg-block" data-aos="zoom-out-down" data-aos-duration="1500">
+                <img class="img-fluid" src="../assets/Schedule.png">
+            </div>
+            <br>
+            <div class="schedule-padding d-lg-none" data-aos="fade-up" data-aos-duration="1500">
+                <img class="img-fluid" src="../assets/ScheduleVertical.png">
+            </div>
+        </div>
+    </section>
+    <!-- SPEAKERS -->
+    <section class="speakers pt-4 " id="speakers">
+        <div class="container text-center">
+            <div class="container pt-4 text-center text-light">
+                <h2 class="text-left">Speakers</h2>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 pb-2">
+                        <div class="speakers-3" data-aos="fade-up" data-aos-duration="1500">
+                            <!-- CHANGE THIS -->
+
+                            <img src="../assets/Asset 2.png" id="speaker-img">
+                            <!-- REMOVE STYLE-COMPONENT IN H4 -->
+                            <div class="speaker-label">
+                                <h4 style="color:#199854; font-weight: bold;">REVEALING<br>SOON..</h4>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="col-sm-12 col-md-6 pt-2" id="green-line-speaker">
+                        <div class="speakers-3" data-aos="fade-up" data-aos-duration="1500">
+                            <!-- CHANGE THIS -->
+                            <img src="../assets/Asset 2.png" id="speaker-img">
+                            <!-- REMOVE STYLE-COMPONENT IN H4 -->
+                            <div class="speaker-label">
+                                <h4 style="color:#199854; font-weight: bold;">REVEALING<br>SOON..</h4>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- prizes -->
+    <section class="prizes pb-4" id="prizes">
+        <div class="parallax">
+            <div class="black-overlay-2">
+                <svg class="tri-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 185">
+                    <path fill="#111010" fill-opacity="1" d="M0,0L1440,165L1440,0L0,0Z"></path>
+                </svg>
+                <div class="container text-center">
+                    <h2 class="text-left">Prizes</h2>
+                    <div class="row text-center">
+                        <div class=" col-md-5 prizes-text">
+                            <p>The driving force of innovation is the funding that it earns during the process of
+                                actuation! As an ode to business ideas and technology, we here at TEC-VIT believe in
+                                rewarding pioneers.
+                            </p>
+
+                            <p>With a total cash prize of 30,000 and other prizes such as credits and goodies, what's
+                                not to like? To all the business minds and enthusiasts out there, this is your chance to
+                                prove your mettle.
+                            </p>
+                        </div>
+                        <div class="col-md-7 prize-tropies d-none d-md-block">
+                            <div class="row ">
+                                <div class="col-4 prize-icons" id="icon-1" data-aos="zoom-in-up"
+                                    data-aos-duration="1500">
+                                    <img src="../assets/prize-badge-with-star-and-ribbon.svg" class="badge-icons">
+                                    <p class="prize-name"><b>1st Runner Up</b></p>
+                                    <p class="prize-amount">₹ 10000 !</p>
+                                </div>
+                                <div class="col-4 prize-icons" id="icon-2" id="icon-1" data-aos="zoom-in-up"
+                                    data-aos-duration="1000">
+                                    <img src="../assets/trophy-with-a-star.svg" class="badge-icons">
+                                    <p class="prize-name"><b>Winner</b></p>
+                                    <p class="prize-amount">₹ 15000 !</p>
+
+                                </div>
+                                <div class="col-4 prize-icons" id="icon-1" id="icon-1" data-aos="zoom-in-up"
+                                    data-aos-duration="1500">
+                                    <img src="../assets/prize-badge-with-star-and-ribbon.svg" class="badge-icons">
+                                    <p class="prize-name"><b>2nd Runner Up</b></p>
+                                    <p class="prize-amount">₹ 5000 !</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prize-tropies d-md-none">
+                        <div class="column">
+                            <div class="pb-4 pt-4" data-aos="fade-up" data-aos-duration="1000">
+                                <img src="../assets/prize-badge-with-star-and-ribbon.svg" class="badge-icons">
+                                <p class="prize-name"><b>1st Runner Up</b></p>
+                                <p class="prize-amount">₹ 10000 !</p>
+                            </div>
+                            <div class="pb-4 pt-4" data-aos="fade-up" data-aos-duration="1000">
+                                <img src="../assets/trophy-with-a-star.svg" class="badge-icons">
+                                <p class="prize-name"><b>Winner</b></p>
+                                <p class="prize-amount">₹ 15000 !</p>
+
+                            </div>
+                            <div class="pb-4 pt-4" data-aos="fade-up" data-aos-duration="1000">
+                                <img src="../assets/prize-badge-with-star-and-ribbon.svg" class="badge-icons">
+                                <p class="prize-name"><b>2nd Runner Up</b></p>
+                                <p class="prize-amount">₹ 5000 !</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <svg id="faq" class="tri-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 125 1440 190">
+                <path id="schedule" fill="#111010" fill-opacity="1" d="M0,130L1440,320L1440,320L0,320Z"></path>
+                <!-- <path fill="#111010" fill-opacity="1" d="M0,165L1440,320L1440,320L0,320Z"></path> -->
+            </svg>
+        </div>
+        <div class="faq">
+            <div class="container">
+                <h2 class="text-left">FAQs</h2>
+            </div>
+            <div class="container pr-4 mr-4">
+                <button class="collapsible">1. Should I come prepared with a business idea of my own?
+                </button>
+                <div class="content">
+                    <p>No, you’ll have to come up with a business idea according to the problem
+                        statements we’ll be providing you in the competition.</p>
+                </div>
+
+                <button class="collapsible" id="collapsible-2">2. Should I have complete knowledge of stock market for
+                    participating in
+                    this event?</button>
+                <div class="content">
+                    <p>Not necessarily. We will be helping you to understand stock market to you from scratch so that it
+                        comes handy to you in the competition and in future.</p>
+                </div>
+                <button class="collapsible"> 3. Is it necessary to register in teams?</button>
+                <div class="content">
+                    <p>No, registrations will be strictly through the gravitas registration portal and only individual
+                        registration in allowed there. But if you want to participate in a team, all the team members
+                        can register individually and then inform us before the
+                        competition about your team and its member.</p>
+                </div>
+                <button class="collapsible"> 4. What can be the maximum team strength?</button>
+                <div class="content">
+                    <p>A team can have maximum of 5 members.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts" id="contacts">
+        <div class="container text-left">
+            <h2>Contact Us</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="contacts-left">
+                        <div id="contact-names">
+                            <h3>Mr. Kunal Nag</h3>
+                            <h4>+91 9427929363</h4>
+                            <p>(Event Organizer)</p>
+                        </div>
+
+                        <p id="or"><b>Or</b></p>
+
+                        <div id="contact-email">
+                            <h3>Drop us an email at:</h3>
+                            <a href="mailto:businessideas.tec@vit.ac.in">businessideas.tec@vit.ac.in</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 contacts-right">
+
+                    <h3 id="follow-heading">Follow us :</h3>
+                    <div class="">
+                        <i class="fab fa-facebook-square fa-3x"></i>
+                        <a class="xyz handle-names" href="https://www.facebook.com/tec.vit/" target="_blank">@tec.vit
+                        </a><br>
+                        <i class="fab fa-instagram fa-3x "></i>
+                        <a class="xyz handle-names" href="https://www.instagram.com/tec.vit/" target="_blank">@tec.vit
+                        </a><br>
+                        <i class="fab fa-linkedin fa-3x "></i><a class="xyz handle-names"
+                            href="https://www.linkedin.com/organization-guest/company/the-electronics-club-vit?challengeId=AQF_OqGWlda58gAAAXNvufOHkVRzS7hgxh5wCL5wV9it57lZeWP4TYV0FO8Rj_2WZ0RxvMvEfDVjGLKrpf59bJ09LDyDTb01Hg&submissionId=4ca49317-8fab-2316-80d9-954fcc70594a"
+                            target="_blank">The Electronics Club, VIT
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <br><br>
+            <div class="text-center" id="brochure-link">
+                <div>
+                    <p style="display:inline">Interested in Sponsoring us?</p> <a href="Brochure.pdf" target="_blank"
+                        style="display:inline;color:#00FF76">View
+                        Brochure</a>
+                </div>
+                <hr style="border: 0.5px solid #199854;" />
+                <div class="mt-2">
+                    <p style="display:inline">Designed by: </p><a href="http://linkedin.com/in/krishn157"
+                        target="_blank" style="display:inline-block;color:#FFE21C">Krishn</a>
+                </div>
+                <div>
+                    <p style="display:inline">Developed by: </p><a href="" target="_blank"
+                        style="display:inline-block;color:#FFE21C">Yati,</a>
+                    <a href="https://www.linkedin.com/in/pradyumna-kanthamraju-2b67391a3" target="_blank"
+                        style="display:inline-block;color:#FFE21C">Pradyumna</a>
+                    <a href="https://www.linkedin.com/in/shvetha-nambiar-46074b1a5/" target="_blank"
+                        style="display:inline-block;color:#FFE21C">and Shvetha</a>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <!-- JAVASCRIPT CODE -->
+    <script src="./src/main.js"></script>
+</body>
+
+</html>
